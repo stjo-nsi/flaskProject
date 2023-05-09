@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Réponse formulaire</title>
+</head>
+<body>
+
+Egun on {{ nom }} {{ prenom }}
+
+<form method="GET" action= "{{ url_for('hello_world') }}" >
+    <button type="submit">Envoyer</button>
+</form>
+
+</body>
+</html>
